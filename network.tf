@@ -63,7 +63,7 @@ resource "aws_security_group" "sg_desafio02" {
 
   ingress {
     #cidr_blocks = ["${aws_eip.public_instance.public_ip}"]
-    cidr_blocks = ["0.0.0.0/0"]
+    cidr_blocks = ["0.0.0.0/0"] #Block to improve
     from_port   = 3306
     protocol    = "tcp"
     to_port     = 3306
