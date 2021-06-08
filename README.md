@@ -6,7 +6,7 @@ Nesse desafio utilizei a criação de:
 1 Gateway de internet
 1 Route Table
 3 Subnets criadas em 3 regiões utilizando o Count
-* Instâncias ec2, o número de instâncias é criado de acordo com o length das subnets, nesse exemplo 3
+N Instâncias ec2, o número de instâncias é criado de acordo com o length das subnets, nesse exemplo 3
 1 loadbalancer que associa dinamicamente de acordo com o length das instâncias
 1 instância RDS mult AZ.
 1 sub domínio Route 53, o subdomíno é criado apontando ,dinamicamente, para o endpoint do RDS. Assim mantemos os dados centralizados
